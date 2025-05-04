@@ -31,7 +31,7 @@ jobs:
       uses: docker/build-push-action@v6.16.0
       with:
         context: .
-        tags: ${{secrets.DOCKER_USERNMAE}}/django:latest
+        tags: ${{secrets.DOCKER_USERNAME}}/django:latest
 
       
             
